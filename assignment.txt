@@ -1,0 +1,10 @@
+         commands for creating virtual host
+
+
+1) cd /var/www/mkdir xyz
+2) cd to xyz and(make any file inside it eg txt file,html file)
+3) cd /etc/nginx/sites-available
+4) make a conf file
+5) ln -s /etc/nginx/sites-available/.conf /etc/nginx/sites-enable
+6) cd vim /etc/hosts
+7) sudo systemctl restart nginx 
